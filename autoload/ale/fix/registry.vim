@@ -78,6 +78,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['dhall'],
 \       'description': 'Standard code formatter for the Dhall language and removing dead code',
 \   },
+\   'djlint': {
+\       'function': 'ale#fixers#djlint#Fix',
+\       'suggested_filetypes': ['htmldjango'],
+\       'description': 'Fixer for Django templates, Jinja2, and others.',
+\   },
 \   'dune': {
 \       'function': 'ale#fixers#dune#Fix',
 \       'suggested_filetypes': ['dune'],
